@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Transmisión de Datos</title>
+    <link rel="stylesheet" href="./css/registro.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" type="image/x-icon" href="./images/Icono.png" />
+   </head>
+<body>
+
+  <div class="container">
+    <div class="title">Registro</div>
+    <div class="content">
+      <form action="./php/registrar.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Nombre</span>
+            <input type="text" name="nombre" placeholder="Nombre(s)" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Apellidos</span>
+            <input type="text" name="apellidos" placeholder="Apellidos" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Correo Institucional</span>
+            <input type="text" name="correo" placeholder="Escribe el correo de la Institucion" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Numero de Cuenta</span>
+            <input type="text" name="numeroCuenta" placeholder="Número de Cuenta" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Universidad</span>
+            <input type="text" name="universidad" placeholder="Universidad a la que perteneces" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Semestre</span>
+            <input type="text" name="semestre" placeholder="Número del Semestre" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Grupo</span>
+            <input type="text" name="grupo" placeholder="Grupo al que perteneces" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Turno</span>
+            <input type="text" name="turno" placeholder="Matutino o Vespertino" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Contraseña</span>
+            <input type="password" name="contraseña" placeholder="Introduce tu contraseña" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Genero</span>
+            <input type="text" name="genero" placeholder="Introduce tu Genero" required>
+          </div>
+        </div>
+        <!-- <div class="gender-details">
+          <input type="radio"  id="dot-1">
+          <input type="radio"  id="dot-2">
+          <span class="gender-title">Genero</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="Genero" >Masculino</span>
+          </label>
+          <label for="dot-2" >
+            <span class="dot two"></span>
+            <span class="Genero" >Femenino</span>
+          </label>
+          </div>
+        </div> -->
+        <div class="button">
+          <input type="submit" value="Registrar">
+        </div>
+        
+      </form>
+      <div class="button">
+        <a href="./index.html"><input type="submit" value="Regresar"></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

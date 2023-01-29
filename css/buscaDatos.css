@@ -1,0 +1,31 @@
+input{
+    margin-bottom: 15px;
+
+}
+
+.input_busca{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #CACFD2;
+    
+}
+.input_busca:hover{
+    color: #fafafa;
+    background-color: rgba(0, 0, 0,0.5);
+}
+
+.cuenta{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: none;
+   border-bottom: 1px solid rgb(0, 0, 0);
+
+    transition: all 0.3s ease;
+}

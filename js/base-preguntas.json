@@ -1,0 +1,104 @@
+[
+    {
+        "categoria": "Conceptos básicos",
+        "pregunta": "¿Qué es una red de computadoras?",
+        "respuesta": "Conjunto de computadoras conectadas entre si a traves de un medio fisico",
+        "incorrecta1": "Tecnologia que permite comunicar dispocitivos a traves de ondas electromagneticas",
+        "incorrecta2": "Metodo de envio de paquetes asincrono",
+        "incorrecta3": "Metodo para llevar los datos del sistema local a un sistema remoto o bien de una red local a una red remota.",
+        "imagen": "/images/Red.png",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Conceptos básicos",
+        "pregunta": "¿Qué es un segmento de red?",
+        "respuesta": "Técnica de seguridad que divide una red en distintas subredes más pequeñas",
+        "incorrecta1": "Proceso de resumir un grupo de redes subneteadas contiguas en una sola red grande.",
+        "incorrecta2": "Forma de transmisión de información donde un nodo emisor envía información a una multitud de nodos receptores de manera simultánea",
+        "incorrecta3": "Encargado de llevar todos los datos que usualmente transitan por una red,",
+        "imagen": "/images/segmento.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Conceptos básicos",
+        "pregunta": "¿Qué es una red LAN?",
+        "respuesta": "Segmento de red que tiene conectadas estaciones de trabajo y servidores o un conjunto de segmentos de red interconectados, generalmente dentro de la misma zona. por ejemplo: un edificio.",
+        "incorrecta1": "Estándar de red para la comunicación entre distintos dispositivos cercanos al punto de acceso",
+        "incorrecta2": "Es aquella que, a través de una conexión de alta velocidad, ofrece cobertura en una zona geográfica extensa (como una ciudad o un municipio)",
+        "incorrecta3": "Red de computadoras que une varias redes locales, aunque sus miembros no estén todos en una misma ubicación física.",
+        "imagen": "/images/LAN.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Conceptos básicos",
+        "pregunta": "¿Qué es una red PAN?",
+        "respuesta": "Estándar de red para la comunicación entre distintos dispositivos cercanos al punto de acceso",
+        "incorrecta1": "Segmento de red que tiene conectadas estaciones de trabajo y servidores o un conjunto de segmentos de red interconectados, generalmente dentro de la misma zona. por ejemplo: un edificio",
+        "incorrecta2": "Es aquella que, a través de una conexión de alta velocidad, ofrece cobertura en una zona geográfica extensa (como una ciudad o un municipio)",
+        "incorrecta3": "Red de computadoras que une varias redes locales, aunque sus miembros no estén todos en una misma ubicación física."
+    },
+    {
+        "categoria": "Conceptos básicos",
+        "pregunta": "¿Qué es una dirección IP?",
+        "respuesta": "Conjunto de números que identifica, de manera lógica y jerárquica, a una interfaz de red",
+        "incorrecta1": "Estándar de red para la comunicación entre distintos dispositivos cercanos al punto de acceso",
+        "incorrecta2": "Tipo de transmisión en la que el envío se produce desde un único emisor a un único receptor",
+        "incorrecta3": "Red de computadoras que une varias redes locales, aunque sus miembros no estén todos en una misma ubicación física.",
+        "imagen": "/images/ip.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Conceptos básicos",
+        "pregunta": "¿Qué es una red WAN?",
+        "respuesta": "Red de computadoras que une varias redes locales, aunque sus miembros no estén todos en una misma ubicación física.",
+        "incorrecta1": "Estándar de red para la comunicación entre distintos dispositivos cercanos al punto de acceso",
+        "incorrecta2": "Es aquella que, a través de una conexión de alta velocidad, ofrece cobertura en una zona geográfica extensa (como una ciudad o un municipio)",
+        "incorrecta3": "Segmento de red que tiene conectadas estaciones de trabajo y servidores o un conjunto de segmentos de red interconectados, generalmente dentro de la misma zona. por ejemplo: un edificio.",
+        "imagen": "/images/wan.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Calculo de segmentos",
+        "pregunta": "Un laboratorio requiere 2 nuevas sala de computo la cual tiene un total de 28 equipos. Calcular una sub red que permita solventar el numero de equipos que se solicitan. Red a utilizar: 35.62.88.0",
+        "respuesta": "Segmento 0: D.RED  35.62.88.0 - D.BROADCAST  35.62.88.31 - 1RA ÚTIL  35.62.88.1 - ÚLTIMA 35.62.88.30 - MASCARA 255.255.255.224",
+        "incorrecta1": "Segmento 0: D.RED  35.62.98.0 - D.BROADCAST  35.62.98.31 - 1RA ÚTIL  35.62.98.1 - ÚLTIMA 35.62.98.30 - MASCARA 255.255.255.252",
+        "incorrecta2": "Segmento 0: D.RED  35.62.88.32 - D.BROADCAST  35.62.88.63 - 1RA ÚTIL  35.62.88.33 - ÚLTIMA 35.62.88.62 - MASCARA 255.255.255.224",
+        "incorrecta3": "Segmento 0: D.RED  36.62.88.0 - D.BROADCAST  36.62.88.31 - 1RA ÚTIL  36.62.88.1 - ÚLTIMA 36.62.88.30 - MASCARA 255.255.255.224"
+    },
+    {
+        "categoria": "Calculo de segmentos",
+        "pregunta": "Un laboratorio requiere 2 nuevas sala de computo la cual tiene un total de 150 equipos. Calcular una sub red que permita obtener solventar el numero de equipos que se solicitan. Red a utilizar: 172.55.0.0",
+        "respuesta": "Segmento 0: D.RED  172.55.0.0 - D.BROADCAST  172.55.0.255 - 1RA ÚTIL  172.55.0.1 - ÚLTIMA 172.55.0.254 - MASCARA 255.255.255.0",
+        "incorrecta1": "Segmento 0: D.RED  172.55.1.0 - D.BROADCAST  172.55.1.255 - 1RA ÚTIL  172.55.1.1 - ÚLTIMA 172.55.1.254 - MASCARA 255.255.255.0",
+        "incorrecta2": "Segmento 0: D.RED  172.55.0.0 - D.BROADCAST  172.55.0.64 - 1RA ÚTIL  172.55.0.1 - ÚLTIMA 172.55.0.63 - MASCARA 255.255.255.128",
+        "incorrecta3": "Segmento 0: D.RED  172.56.0.0 - D.BROADCAST  172.56.0.255 - 1RA ÚTIL  172.56.0.1 - ÚLTIMA 172.56.0.254 - MASCARA 255.255.255.64"
+    },
+    {
+        "categoria": "Calculo de segmentos",
+        "pregunta": "RED : 10.16.30.0 , calcular redes que permitan albergar los siguientes host 8, 23, 64",
+        "respuesta": "Para 8: D.RED  10.16.32.192 - 1RA ÚTIL  10.16.32.193 - MASCARA 255.255.255.240 ; Para 23 : D.RED  10.16.32.128 - 1RA ÚTIL  10.16.32.129 - MASCARA 255.255.255.224; Para 64 : D.RED  10.16.32.0 - 1RA ÚTIL  10.16.32.1 - MASCARA 255.255.255.128",
+        "incorrecta1": "Para 8: D.RED  10.16.32.192 - 1RA ÚTIL  10.16.32.193 - MASCARA 255.255.255.240 ; Para 23 : D.RED  10.16.32.128 - 1RA ÚTIL  10.16.32.129 - MASCARA 255.255.255.240; Para 64 : D.RED  10.16.32.0 - 1RA ÚTIL  10.16.32.1 - MASCARA 255.255.255.128",
+        "incorrecta2": "Para 8: D.RED  10.16.32.192 - 1RA ÚTIL  10.16.32.193 - MASCARA 255.255.255.240 ; Para 23 : D.RED  10.16.32.128 - 1RA ÚTIL  10.16.32.129 - MASCARA 255.255.255.224; Para 64 : D.RED  10.16.32.32 - 1RA ÚTIL  10.16.32.33 - MASCARA 255.255.255.128",
+        "incorrecta3": "Para 8: D.RED  10.16.32.192 - 1RA ÚTIL  10.16.32.193 - MASCARA 255.255.255.240 ; Para 23 : D.RED  10.16.32.128 - 1RA ÚTIL  10.16.32.129 - MASCARA 255.255.255.224; Para 64 : D.RED  10.16.32.0 - 1RA ÚTIL  10.16.32.1 - MASCARA 255.255.255.252"
+    },
+    {
+        "categoria": "Conceptos Básicos",
+        "pregunta": "¿Cuál de las siguientes definiciones hace alución a la clase de red?",
+        "respuesta": "Estas sirven para una mejor organización y manejo al configurar y crear una red ",
+        "incorrecta1": "Método para maximizar el espacio de direcciones IPv4 de 32 bits y reducir el tamaño de las tablas de enrutamiento en una interred",
+        "incorrecta2": "Grupo de redes conectadas mediante enrutadores que se configuran para pasar tráfico entre las computadoras conectadas a las redes del grupo. La mayor parte de las interredes usan protocolos TCP/IP.",
+        "incorrecta3": "Su objetivo de transmitir datos de un sistema a otro o de disponer recursos en común, como servidores, bases de datos o impresoras",
+        "imagen": "/images/topologia.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Conceptos Básicos",
+        "pregunta": "¿Cuál de las siguientes definiciones hace referencia a una clase A?",
+        "respuesta": "Esta clase es para las redes muy grandes, tales como las de una gran compañía internacional. Del IP con un primer octeto a partir de 1 al 126 son parte de esta clase",
+        "incorrecta1": "Esta se utiliza para las redes de tamaño mediano. Un buen ejemplo es un campus grande de la universidad. Las direcciones del IP con un primer octeto a partir del 128 al 191 son parte de esta clase.",
+        "incorrecta2": "Las direcciones de esta clase se utilizan comúnmente para los negocios pequeños a mediados de tamaño. Las direcciones del IP con un primer octeto a partir del 192 al 223 son parte de esta clase.",
+        "incorrecta3": "Utilizado para los multicast, Tiene un primer bit con valor de 1, segundo bit con valor de 1, tercer bit con valor de 1 y cuarto bit con valor de 1. Los otros 28 bits se utilizan para identificar el grupo de computadoras que el mensaje del multicast está dirigido.",
+        "imagen": "/images/topologia.jpg",
+        "objectFit": "contain"
+    }
+]

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Transmisión de Datos</title>
+      <link rel="shortcut icon" href="./images/Icono.png" type="image/x-icon">
+      <link rel="stylesheet" href="./css/normalize.css">
+      <link rel="stylesheet" href="./css/estilos.css">
+      <link rel="stylesheet" href="./css/perfil.css">
+      <link rel="stylesheet" href="./css/buscaDatos.css">
+   </head>
+   <body>
+      <header class="unidad">
+         <nav class="nav container">
+            <div class="nav__logo">
+               <h2 class="nav__title">Transmisión de Datos</h2>
+            </div>
+            <ul class="nav__link nav__link--menu">
+               <li class="nav__items">
+                  <a href="inicio.html" class="nav__links">Inicio</a>
+               </li>
+               <li class="nav__items">
+                  <a href="./Contacto.html" class="nav__links">Contacto</a>
+               </li>
+               <li class="nav__items">
+                  <a href="./apoyo.html" class="nav__links">Material de Apoyo</a>
+               </li>
+               <li class="nav__items">
+                  <a href="./Perfil.html" class="nav__links">Perfil</a>
+               </li>
+               <img src="./images/close.svg" class="nav__close">
+            </ul>
+            <div class="nav__menu">
+               <img src="./images/menu.svg" class="nav__img">
+            </div>
+         </nav>
+      </header>
+      <main>
+         <section class="seccion-perfil-usuario">
+            <div class="perfil-usuario-header">
+            </div>
+         <div class="perfil-usuario-body">
+            <h2>Para saber que eres tu, por favor introduce tu Numero de Cuenta</h2>
+            <div class="perfil-usuario-footer">
+            <form method="post" action="./php/perfil.php">
+               <div class="elemento">
+                  <input type="text" class="cuenta" name="cuenta" required="true" placeholder="Numero de Cuenta"/>
+               </div>
+               <div class="elemento">
+                  <input class="input_busca" type="submit" value="Enviar"/>
+               </div>
+            </form></div>
+         </div>
+      </section>
+      </main>
+      <script src="./js/slider.js"></script>
+      <script src="./js/questions.js"></script>
+      <script src="./js/menu.js"></script>
+   </body>
+</html>

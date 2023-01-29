@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Transmisión de Datos</title>
+      <link rel="shortcut icon" href="../images/Icono.png" type="image/x-icon">
+      <link rel="stylesheet" href="../css/normalize.css">
+      <link rel="stylesheet" href="../css/estilos.css">
+   </head>
+   <body>
+      <header class="hero">
+         <nav class="nav container">
+            <div class="nav__logo">
+               <h2 class="nav__title">Transmisión de Datos</h2>
+            </div>
+            <ul class="nav__link nav__link--menu">
+               <li class="nav__items">
+                  <a href="../inicio.html" class="nav__links">Inicio</a>
+               </li>
+               <li class="nav__items">
+                  <a href="../Contacto.html" class="nav__links">Contacto</a>
+               </li>
+               <li class="nav__items">
+                  <a href="../apoyo.html" class="nav__links">Material de Apoyo</a>
+               </li>
+               <li class="nav__items">
+                  <a href="../Perfil.html" class="nav__links">Perfil</a>
+               </li>
+               <img src="../images/close.svg" class="nav__close">
+            </ul>
+            <div class="nav__menu">
+               <img src="../images/menu.svg" class="nav__img">
+            </div>
+         </nav>
+         <section class="hero__container container">
+            <h1 class="hero__title">Clases y tipos de redes</h1>
+            <p class="hero__paragraph">Conceptos Básicos</p>
+         </section>
+      </header>
+      <main>
+         <section class="temas">
+            <h2 class="tema">Tipos de redes</h2>
+            <p class="contenido">
+               Las redes se configuran con el objetivo de transmitir datos de un sistema a otro o de disponer recursos en común, como servidores, 
+               bases de datos o impresoras. En función del tamaño y del alcance de la red de ordenadores, se puede establecer una diferenciación entre 
+               diversas dimensiones de red. Entre los tipos de redes más importantes se encuentran:   <br>
+               <i>*Red WAN</i><br><i>*Red PAN</i> <br><i>*Red LAN</i><br><i>*Red MAN</i><br>
+               A continuación en el siguiente video se explicara cada una de estas redes y sus difrencias:
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/N_m4Wq4QMgc" title="YouTube video player" frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videos"></iframe>
+         </section>
+         <section class="temas">
+            <h2 class="tema">¿Por qué clases de redes?</h2>
+            <p class="contenido">
+               Para comprender las clases de direcciones IP, necesitamos entender que cada dirección IP consiste en 4 octetos de 8 bits cada uno.
+               Para una mejor organización en el reparto de rangos las redes se han agrupado en cuatro clases, de manera que según el tamaño de la red se optará por un tipo u otro.
+               Existen 5 tipos de clases de IP, más ciertas direcciones especiales:
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2b4abuaqcko" title="YouTube video player" 
+               frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videos"></iframe>
+         </section>
+         <section class="temas">
+            <h2 class="tema">Clase A</h2>
+            <p class="contenido">Esta clase es para las redes muy grandes, tales como las de una gran compañía internacional. 
+               Del IP con un primer octeto a partir de 1 al 126 son parte de esta clase. Los otros tres octetos son usados para identificar cada anfitrión. Esto significa que hay 126 redes de la clase A con 16,777,214 (2^24 -2) posibles anfitriones para un total de 2,147,483,648 (2^31) direcciones únicas del IP. Las redes de la clase A totalizan la mitad de las direcciones disponibles totales del IP.
+               En redes de la clase A, el valor del bit *(el primer número binario) en el primer octeto es siempre 0.
+            </p>
+         </section>
+         <section class="temas">
+            <h2 class="tema">Clase B</h2>
+            <p class="contenido">La clase B se utiliza para las redes de tamaño mediano. Un buen ejemplo es un campus grande de la universidad.
+               Las direcciones del IP con un primer octeto a partir del 128 al 191 son parte de esta clase. Las direcciones de la clase B también incluyen el segundo octeto como parte del identificador neto. Utilizan a los otros dos octetos para identificar cada anfitrión (host). Esto significa que hay 16,384 (2^14) redes de la clase B con 65,534 (2^16 -2) anfitriones posibles cada uno para un total de 1,073,741,824 (2^30) direcciones únicas del IP. Las redes de la clase B totalizan
+               un cuarto de las direcciones disponibles totales del IP y tienen un primer bit con valor de 1 y un segundo bit con valor de 0 en el primer octeto.
+            </p>
+         </section>
+         <section class="temas">
+            <h2 class="tema">Clase C</h2>
+            <p class="contenido">Las direcciones de la clase C se utilizan comúnmente para los negocios pequeños a mediados de tamaño.
+               Las direcciones del IP con un primer octeto a partir del 192 al 223 son parte de esta clase. Las direcciones de la clase C 
+               también incluyen a segundos y terceros octetos como parte del identificador neto. Utilizan al último octeto para identificar cada anfitrión. 
+               Esto significa que hay 2,097,152 (2^21) redes de la clase C con 254 (2^8 -2) anfitriones posibles cada uno para un total de 536,870,912 (2^29) 
+               direcciones únicas del IP. Las redes de la clase C totalizan un octavo de las direcciones disponibles totales del IP. 
+               Las redes de la clase C tienen un primer bit con valor de 1, segundo bit con valor de 1 y de un tercer bit con valor de 0 en el primer octeto.
+            </p>
+         </section>
+         <section class="temas">
+            <h2 class="tema">Clase D</h2>
+            <p class="contenido">
+               Utilizado para los multicast, la clase D es levemente diferente de las primeras tres clases. Tiene un primer bit con valor de 1,
+               segundo bit con valor de 1, tercer bit con valor de 1 y cuarto bit con valor de 0. Los otros 28 bits se utilizan para identificar 
+               el grupo de computadoras al que el mensaje del multicast está dirigido. La clase D totaliza 1/16ava (268,435,456 o 2^28) de las direcciones 
+               disponibles del IP.
+            </p>
+         </section>
+         <section class="temas">
+            <h2 class="tema">Clase E</h2>
+            <p class="contenido">
+               La clase E se utiliza para propósitos experimentales solamente. Como la clase D, es diferente de las primeras tres clases. 
+               Tiene un primer bit con valor de 1, segundo bit con valor de 1, tercer bit con valor de 1 y cuarto bit con valor de 1. 
+               Los otros 28 bits se utilizan para identificar el grupo de computadoras que el mensaje del multicast está dirigido. 
+               La clase E totaliza 1/16ava (268,435,456 o 2^28) de las direcciones disponibles del IP.
+            </p>
+         </section>
+         <section class="temas">
+            <h2 class="tema">Tabla de clases</h2>
+            <img src="/images/temas/tabla.png">
+            <aside>
+               Imagen extraida de unerc0de.org
+            </aside>
+         </section>
+         <a href="./ConceptosBasicos.html" class="ctaBack">Lección Anterior</a>
+         <a href="./ConceptosBasicos3.html" class="ctaBack">Siguiente Lección</a>
+      </main>
+      <script src="../js/slider.js"></script>
+      <script src="../js/questions.js"></script>
+      <script src="../js/menu.js"></script>
+   </body>
+</html>

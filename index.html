@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Transmisión de Datos</title>
+      <link rel="stylesheet" href="./css/login.css" />
+      <link rel="shortcut icon" type="image/x-icon" href="./images/Icono.png" />
+   </head>
+   <body>
+      <div class="area" >
+         <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+         </ul>
+      </div >
+      <div class="contenedor">
+         <h2>Login</h2>
+         <form method="post" action="./php/validar.php">
+            <div class="elemento">
+               <label for="user">Numero de Cuenta</label>
+               <input type="text" name="usuario" required="true" />
+            </div>
+            <div class="elemento">
+               <label for="password">Password</label>
+               <input type="password" name="contraseña" required="true" />
+            </div>
+            <div class="elemento">
+               <input type="submit" value="Enviar"/>
+            </div>
+         </form>
+         <div class="boton">
+            <a href="registro.html"><input type="button" value="Registrarse"> </a>
+         </div>
+      </div>
+   </body>
+</html>
