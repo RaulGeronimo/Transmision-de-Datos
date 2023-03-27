@@ -23,4 +23,6 @@ cd Transmision-de-Datos
 Para poder utilizar el proyecto de manera local, en el navegador debera entrar a la pagina
 > Enlace: http://localhost/Transmision%20de%20Datos/
 
+Necesitas tener la base de datos en el gestor de bases de datos, asi como actualizar la conexion que se encuentra en el archivo `php/Conexion.php` asi como el archivo `php/db.php`, la base de datos se encuentra dentro de la carpeta `Base de Datos`.
+
 > Demo: https://mango-sky-087231410.2.azurestaticapps.net/
